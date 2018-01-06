@@ -1,9 +1,13 @@
 # Golang package test.
 
+## Install
+
+```bash
+go get github.com/vcgo/packagetest
+go get github.com/vcgo/packagetest/tool/testcmd
+```
 
 ## Test package
-
-`go get github.com/vcgo/packagetest`
 
 ```go
 // write a file test.go
@@ -22,7 +26,5 @@ func main() {
     $ go run test.go
 
 ## Test cmd
-
-`go get github.com/vcgo/packagetest/tool/testcmd`
 
     $ testcmd
