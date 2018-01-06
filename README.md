@@ -1,0 +1,2 @@
+# packagetest
+Learn golang package.
